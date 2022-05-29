@@ -9,6 +9,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
+import Testimonial from './components/Testimonials/Testimonial';
 
 function App() {
   const [theme, setTheme] = useState(Theme.Light);
@@ -21,6 +22,7 @@ function App() {
         <Experience />
         <Works />
         <Portfolio />
+        <Testimonial />
       </div>
     </ThemeContext.Provider>
   );

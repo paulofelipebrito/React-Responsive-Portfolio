@@ -6,6 +6,8 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
+import Resume from './resume.pdf';
+
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -30,7 +32,9 @@ const Services = () => {
           <br />
           ispum is simpley dummy text of printing
         </span>
-        <button className="button s-button">Download CV</button>
+        <a href={Resume} download>
+          <button className="button s-button">Download CV</button>
+        </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -49,8 +53,8 @@ const Services = () => {
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-11rem", top: "12rem" }}
-          whileInView={{ left: "-4rem" }}
+          initial={{ left: "-9rem", top: "12rem" }}
+          whileInView={{ left: "-2rem" }}
           transition={transition}
         >
           <Card
@@ -62,7 +66,7 @@ const Services = () => {
         {/* 3rd */}
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "12rem" }}
+          whileInView={{ left: "14rem" }}
           transition={transition}
         >
           <Card

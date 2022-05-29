@@ -1,3 +1,4 @@
+import Toggle from '../Toggle/Toggle';
 import './Navbar.css'
 
 export const Navbar = () => {
@@ -6,7 +7,7 @@ export const Navbar = () => {
       {/* left */}
       <div className="nav-left">
         <div className="nav-name">Felipe</div>
-        <span>toggle</span>
+        <Toggle />
       </div>
       {/* right */}
       <div className="nav-right">

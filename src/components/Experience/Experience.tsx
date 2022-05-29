@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
-import { useTheme, Theme } from "../../context/ThemeContext";
+import { useTheme } from "../../context/ThemeContext";
 
 import "./Experience.css";
 
 const Experience = () => {
   const { theme } = useTheme();
-console.log(theme);
+  
   return (
     <div className="experience" id='experience'>
       <div className="achievement">

@@ -8,6 +8,7 @@ import { Intro } from './components/Intro/Intro';
 import { Navbar } from "./components/Navbar/Navbar";
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const [theme, setTheme] = useState(Theme.Light);
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <Experience />
         <Works />
+        <Portfolio />
       </div>
     </ThemeContext.Provider>
   );

@@ -21,7 +21,7 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: theme ? "Light" : "" }}>
+          <span style={{ color: theme === "Light" ? "white" : "" }}>
             Works for All these
           </span>
           <span>Brands & Clients</span>

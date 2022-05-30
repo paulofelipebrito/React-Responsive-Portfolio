@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
@@ -14,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: theme === "Light" ?'white': ''}}>Recent Projects</span>
+      <span style={{color: theme === "Dark" ?'white': ''}}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}

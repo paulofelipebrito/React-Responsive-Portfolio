@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { useTheme } from "../../context/ThemeContext";
@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: theme === "Light" ?'white': ''}}>Get in Touch</span>
+          <span style={{color: theme === "Dark" ?'white': ''}}>Get in Touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"

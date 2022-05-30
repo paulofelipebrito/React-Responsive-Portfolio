@@ -1,18 +1,16 @@
-import React, { useContext } from "react";
-
 import "./Services.css";
 
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
-import Resume from './resume.pdf';
 
 import { motion } from "framer-motion";
+import { useTheme } from "../../context/ThemeContext";
 
 const Services = () => {
   // context
-  
+  const { theme } = useTheme();
 
   // transition
   const transition = {
@@ -25,14 +23,14 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span>My Awesome</span>
+        <span style={{ color: theme === "Dark" ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
         </span>
-        <a href={Resume} download>
+        <a href={"https://www.canva.com/design/DAE3P4gIuXA/iclPZmgTSSLTE1MxFLdwuQ/view?utm_content=DAE3P4gIuXA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"} target="_blank" rel="noreferrer">
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -53,8 +51,8 @@ const Services = () => {
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-9rem", top: "12rem" }}
-          whileInView={{ left: "-2rem" }}
+          initial={{ left: "-11rem", top: "12rem" }}
+          whileInView={{ left: "-4rem" }}
           transition={transition}
         >
           <Card
@@ -66,7 +64,7 @@ const Services = () => {
         {/* 3rd */}
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "14rem" }}
+          whileInView={{ left: "12rem" }}
           transition={transition}
         >
           <Card

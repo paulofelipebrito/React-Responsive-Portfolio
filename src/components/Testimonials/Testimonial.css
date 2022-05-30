@@ -64,6 +64,9 @@
     justify-content: center;
 }
 
+.t-wrapper .swiper-pagination-bullet{
+    background: var(--black);
+}
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);
 }

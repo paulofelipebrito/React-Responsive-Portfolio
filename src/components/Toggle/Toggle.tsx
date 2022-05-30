@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import "./Toggle.css";
 import Moon from "@iconscout/react-unicons/icons/uil-moon";
 import Sun from "@iconscout/react-unicons/icons/uil-sun";
@@ -15,8 +14,7 @@ const Toggle = () => {
     <div className="toggle" onClick={handleClick}>
       <Moon />
       <Sun />
-      {/*                              toggle.css mein left ki property aik assign hy ussy delete
-                                          krna hy pehly */}
+      
       <div
         className="t-button"
         style={theme === Theme.Dark ? { left: "2px" } : { right: "2px" }}

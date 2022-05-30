@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
@@ -21,7 +20,7 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: theme === "Light" ? "white" : "" }}>
+          <span style={{ color: theme === "Dark" ? "white" : "" }}>
             Works for All these
           </span>
           <span>Brands & Clients</span>
@@ -55,19 +54,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Upwork} alt="Upwork" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Fiverr} alt="Fiverr" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Amazon} alt="Amazon" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Shopify} alt="Shopify" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Facebook} alt="Facebook" />
           </div>
         </motion.div>
         {/* background Circles */}

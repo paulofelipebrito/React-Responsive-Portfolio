@@ -38,6 +38,7 @@
 /* right side */
 .w-right {
   position: relative;
+  left: 20%;
 }
 
 .w-mainCircle {
@@ -80,7 +81,7 @@
   height: 6rem;
   position: absolute;
   border-radius: 100%;
-  border: 5px solid #ebebeb;
+  border: 5px solid #cecece;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,6 +126,7 @@
     align-items: flex-start;
     justify-content:start;
     transform: scale(0.7);
+    left: 0;
   }
   .w-mainCircle{
     position: static;

@@ -17,7 +17,13 @@ function App() {
   const [theme, setTheme] = useState(Theme.Light);
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className="App">
+      <div 
+        className="App"
+        style={{
+          background: theme === "Dark" ? "black" : "",
+          color: theme === "Dark" ? "white" : "",
+        }}
+        >
         <Navbar />
         <Intro />
         <Services />

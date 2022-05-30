@@ -1,12 +1,12 @@
 import './FloatingDiv.css'
 
-interface FloatinDivProps {
+interface FloatingDivProps {
   img: string;
   text1: string;
   text2: string;
 }
 
-const FloatinDiv = ({img, text1, text2} : FloatinDivProps) => {
+const FloatingDiv = ({img, text1, text2} : FloatingDivProps) => {
   return (
     // darkMode
     <div className="floatingDiv">
@@ -20,4 +20,4 @@ const FloatinDiv = ({img, text1, text2} : FloatinDivProps) => {
   );
 };
 
-export default FloatinDiv;
+export default FloatingDiv;

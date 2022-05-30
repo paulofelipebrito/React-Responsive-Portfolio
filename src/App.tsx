@@ -10,6 +10,7 @@ import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonial from './components/Testimonials/Testimonial';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const [theme, setTheme] = useState(Theme.Light);
@@ -23,6 +24,7 @@ function App() {
         <Works />
         <Portfolio />
         <Testimonial />
+        <Contact />
       </div>
     </ThemeContext.Provider>
   );

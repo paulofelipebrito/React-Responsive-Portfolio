@@ -10,5 +10,8 @@ declare module "*.pdf" {
 
 declare module '@iconscout/react-unicons/icons/uil-sun';
 declare module '@iconscout/react-unicons/icons/uil-moon';
+declare module '@iconscout/react-unicons/icons/uil-instagram';
+declare module '@iconscout/react-unicons/icons/uil-facebook';
+declare module '@iconscout/react-unicons/icons/uil-github';
 declare module 'react-scroll';
 declare module '@emailjs/browser';

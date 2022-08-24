@@ -52,7 +52,7 @@
 
 Welcome to the _GitHub repository_ of my **Responsive Portfolio** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
 
-This site provides a Responsive Portfolio demo. Users will find **Switch theme mode, About me presentation, services, experience, portfolio projects, download CV,testimonials and Call to Action (sending an email)**. If you're confused about where you are, try this [**this link**][deploy-url] to the deployed project instead 😄.
+This site provides a Responsive Portfolio demo. Users will find **Switch theme mode, about me, services, experience, portfolio projects, download CV, testimonials and Call to Action (sending an email)**. If you're confused about where you are, try this [**this link**][deploy-url] to the deployed project instead 😄.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

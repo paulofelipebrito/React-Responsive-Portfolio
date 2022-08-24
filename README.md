@@ -44,8 +44,8 @@
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="portfolio" title="#portfolio" src="./src/assets/demo.gif" > 
-  <img alt="portfolio" title="portfolio" src="./src/assets/demo1.gif" > 
+  <img alt="portfolio" title="#portfolio" src="./src/img/demo.gif" > 
+  <img alt="portfolio" title="portfolio" src="./src/img/demo1.gif" > 
 
 </p>
 </div>

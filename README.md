@@ -36,7 +36,7 @@
     Responsive Portfolio
 </h1>
 
-[🔗**sales-lading-page.netlify.app**][deploy-url]
+[🔗**felipedemoproject.netlify.app**][deploy-url]
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -214,4 +214,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [Typescript-url]: (https://www.typescriptlang.org)
-[deploy-url]: https://fitnessapp-demo.netlify.app
+[deploy-url]: https://felipedemoproject.netlify.app
